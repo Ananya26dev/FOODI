@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+}
+.btn-custom{
+    background-color: #39DB4A;
+    border: none;
+    outline: none;
+}
+.text-custom{
+    color: #39DB4A;
+}
+.bg-custom{
+    background-color: #39DB4A;
+}
+.section-title{
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.section-subtitle{
+    font-family: "Inter", serif;
+    font-size: 39px;
+    font-weight: 700;
+}
+.text-pink{
+    color: #FF6868;
+}
+section{
+    padding: 60px 0;
+}
+
+.logo-first-text{
+    background-color:  #39DB4A;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    padding: 3px 6px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Rubik Scribble", serif;
+    font-size: 20px;
+}
+.logo-last-text{
+    font-family: "Kanit", serif;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 2px;
+}
+.nav-link{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:  #39DB4A;
+}
+.nav-icons{
+    color: #272727;
+}
+.nav-icons i{
+    width: 22.64px;
+    height: 22.64px;
+}
+.nav-right{
+    justify-content:center;
+    align-items:center;
+}
+.cart-count{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #39DB4A;
+    top: -30%;
+    left: 30%;
+    text-align: center;
+    font-family: "Inter", serif;
+    z-index: 9999;
+}
+.hero-title{
+    font-family: "Inter", serif;
+    font-size: 55px;
+    font-weight: 800;
+}
+#hero{
+    height: 550px;
+    padding-top: 120px;
+}
+.hero-subtitle{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.order_btn{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+.watch-btn{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+.hero-div{
+    height: 315px;
+    width: 315px;
+    border-radius: 50%;
+}
+.hero-img{
+    width: 550px;
+    height: auto;
+    bottom: 0%;
+    right: -5%;
+    z-index: 9999;
+}
+.banner-img{
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.banner-title{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.banner-card{
+    border-radius: 15px;
+}
+.banner-info{
+    bottom: -15%;
+    left: 10%;
+    z-index: 999999;
+}
+.banner-text{
+    top: -330%;
+    left: -10%;
+    color: #FF6868;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 5px;
+}
+.category-title{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.category-subtitle{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.category-img-container{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #C1F1C6;
+}
+.category-img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.category-card{
+    border-radius: 40px;
+    padding: 20px 15px;
+}
+
+.arrow-div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.dish-img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.dish-price{
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-weight: 500; 
+}
+.dish-title{
+    font-family: "Inter", serif;
+    font-size: 22px;
+    font-weight: 600; 
+}
+/* .favorite-menu{
+    width: 70px;
+    height: 55px;
+    text-align: center;
+    background-color: #39DB4A;
+    color: #fff;
+    border-top-right-radius: 37.5px;
+    border-bottom-left-radius: 42.5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    right: 65%;
+    top: 337%; 
+    z-index: 99999999;
+} */
+.testimonial-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    text-align: center;
+}
+.chef-img{
+    width: 320px;
+    height: auto;
+    bottom: 0%;
+    right: -2%;
+    z-index: 9999;
+}
+.service-item{
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+.service-title{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 700; 
+}
+.service-subtitle{
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #90BD95; 
+}
+.social-item{
+    width: 45px;
+    height: 45px;
+    padding:8px;
+    border-radius: 50%;
+    background-color: #dbebdd;
+    text-align: center;
+    color: #484848
+}
+.social-item.active{
+    background-color: #39DB4A;
+    color: #fff;
+}
+.footer-header{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-text{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400; 
+}
+@media (min-width: 344px) and (max-width: 912px){
+    .nav-right{
+        justify-content:start;
+        align-items:start;
+
+    }
+}
+@media (min-width: 344px) and (max-width: 767px){
+    .banner-info {
+        top: 92%;
+        right: 5%;
+        left: 5%;
+    }
+    .hero-title {
+        font-size: 30px;
+    }
+    #hero {
+        height: 985px;
+    }
+    .banner-text {
+        top: -285%;
+        left: -4%;
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .hero-title {
+        font-size: 34px;
+    }
+    .banner-text {
+        top: -195%;
+        left: -25%;
+    }
+}
+@media (max-width: 1024px){
+    .category-title {
+        font-size: 22px;
+    }
+    .banner-title {
+        font-size: 12px;
+    }
+}

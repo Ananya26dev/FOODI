@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of webpage -->
+    <title>FOODI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header Starts -->
+    <header>
+        <!-- Navbar Starts -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container py-3">
+              <a class="navbar-brand" href="#"><span class="logo-first-text">F</span><span class="logo-last-text">OODI</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+                  <li class="nav-item me-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item me-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="services">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Offers</a>
+                  </li>
+                </ul>
+                <div class="d-flex ms-auto nav-right">
+                  <a href="#" class="text-decoration-none nav-icons me-2 mt-2"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="text-decoration-none nav-icons me-2 mt-2 position-relative"><i class="fa-solid fa-basket-shopping"></i><span class="position-absolute cart-count text-white">8</span></a>
+                  <button class="btn btn-custom rounded-pill text-center text-white" type="submit"><i class="fa-solid fa-phone-volume me-2"></i>Contact</button>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- Navbar ends -->
+        <!-- Hero Section Starts -->
+        <div id="hero" class="bg-light">  
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class=" d-flex flex-column justify-content-center align-items-center">
+                            <h1 class="hero-title mb-5">Dive into Delights Of Delectable <span class="text-custom">Food</span></h1>
+                            <p class="hero-subtitle mb-5">Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
+                        </div>
+                        <div class="action-buttons mb-5 d-flex justify-content-start align-items-start">
+                            <button class="btn btn-custom rounded-pill text-center order_btn text-white me-2" type="submit">Order Now</button>
+                            <a href="#" class="watch-btn text-decoration-none text-dark me-2">Watch Video</a>
+                            <button type="button" class="btn bg-white shadow rounded-circle text-dark text-center"><i class="fa-solid fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <div class="position-relative hero-div bg-custom">
+                                <img src="images/hero/main.png" alt="Hero" class="hero-img position-absolute">
+                            </div>
+                        </div>
+                        <div class="row position-absolute banner-info">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="card mb-3 banner-card border-0 shadow">
+                                    <div class="row g-0">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                                            <img src="images/hero/banner1.png" class="banner-img" alt="Banner">
+                                            <!-- <p class="position-absolute banner-text shadow bg-light">Hot spicy Food 🌶</p> -->
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title banner-title">Spicy noodles</h5>
+                                                <p class="card-text mb-0"><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                                                <p><small class="text-pink">$</small>18.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="card mb-3 banner-card border-0 shadow">
+                                    <div class="row g-0">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                                        <img src="images/hero/banner2.png" class="banner-img" alt="Banner">
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title banner-title">Vegetarian salad</h5>
+                                            <p class="card-text mb-0"><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-regular fa-star"></i></p>
+                                            <p><small class="text-pink">$</small>23.00</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section ends -->
+    </header>
+    <!-- Header Ends -->
+    <!-- Main Starts -->
+    <main>
+        <!-- Categories Section Starts -->
+        <section id="categories" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center align-items-center text-center flex-column">
+                        <h6 class="section-title text-pink text-uppercase mb-3">Customer Favorites</h6>
+                        <h3 class="text-dark section-subtitle mb-5">Popular Catagories</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card">
+                                <div class="category-img-container">
+                                    <img src="images/categories/category1.png" class="category-img" alt="Main Dish">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title category-title text-center">Main Dish</h5>
+                                  <p class="card-text category-subtitle text-center">(86 dishes)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card">
+                                <div class="category-img-container">
+                                    <img src="images/categories/category2.png" class="category-img" alt="Break Fast">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title category-title text-center">Break Fast</h5>
+                                  <p class="card-text category-subtitle text-center">(12 break fast)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card">
+                                <div class="category-img-container">
+                                    <img src="images/categories/category3.png" class="category-img" alt="Dessert">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title category-title text-center">Dessert</h5>
+                                  <p class="card-text category-subtitle text-center">(48 dessert)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card">
+                                <div class="category-img-container">
+                                    <img src="images/categories/category4.png" class="category-img" alt="Browse All">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title category-title text-center">Browse All</h5>
+                                  <p class="card-text category-subtitle text-center">(255 Items)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Categories Section ends -->
+        <!-- Menu Section Starts -->
+        <section id="menu" class="bg-light">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-start text-start flex-column">
+                        <h6 class="section-title text-pink text-uppercase mb-3">Special Dishes</h6>
+                        <h3 class="text-dark section-subtitle mb-5">Standout Dishes From Our Menu</h3>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-2">
+                        <div class="d-flex justify-content-end align-items-end">
+                            <a class="arrow-div bg-white text-dark text-center me-2"><i class="fa-solid fa-chevron-left"></i></a>
+                            <a class="arrow-div bg-custom text-white text-center"><i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card position-relative">
+                                <img src="images/dishes/dish1.png" class="dish-img my-3" alt="Fattoush salad">
+                                <div class="card-body mx-5">
+                                  <h5 class="card-title dish-title text-start">Fattoush salad</h5>
+                                  <p class="card-text category-subtitle text-start">Description of the item</p>
+                                  <div class="row mb-2">
+                                    <div class="col-6">
+                                        <p class="text-start"><small class="text-pink">$</small><span class="dish-price"> 24.00</span></p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p><i class="fa-solid fa-star text-warning"></i>&nbsp;&nbsp;4.9</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <!-- <div class="favorite-menu"><i class="fa-solid fa-heart"></i></div> -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card position-relative">
+                                <img src="images/dishes/dish2.png" class="dish-img my-3" alt="Vegetable salad">
+                                <div class="card-body mx-5">
+                                  <h5 class="card-title dish-title text-start">Vegetable salad</h5>
+                                  <p class="card-text category-subtitle text-start">Description of the item</p>
+                                  <div class="row mb-2">
+                                    <div class="col-6">
+                                        <p class="text-start"><small class="text-pink">$</small><span class="dish-price"> 26.00</span></p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p><i class="fa-solid fa-star text-warning"></i>&nbsp;&nbsp;4.6</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <!-- <div class="favorite-menu"><i class="fa-regular fa-heart"></i></div> -->
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                            <div class="card w-100 border-0 shadow category-card position-relative">
+                                <img src="images/dishes/dish3.png" class="dish-img my-3" alt="Egg vegi salad">
+                                <div class="card-body mx-5">
+                                  <h5 class="card-title dish-title text-start">Egg vegi salad</h5>
+                                  <p class="card-text category-subtitle text-start">Description of the item</p>
+                                  <div class="row mb-2">
+                                    <div class="col-6">
+                                        <p class="text-start"><small class="text-pink">$</small><span class="dish-price"> 23.00</span></p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p><i class="fa-solid fa-star text-warning"></i>&nbsp;&nbsp;4.5</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <!-- <div class="favorite-menu"><i class="fa-regular fa-heart"></i></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu Section ends -->
+        <!-- Testimonials Section Starts -->
+        <section id="testimonials" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 position-relative mb-2">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <div class="position-relative hero-div bg-custom">
+                                <img src="images/chef.png" alt="Testimonials" class="chef-img position-absolute">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="d-flex flex-column justify-content-center align-items-start text-start">
+                            <h6 class="section-title text-pink text-start text-uppercase mb-3">Testimonials</h6>
+                            <h3 class="text-dark section-subtitle mb-2">What Our Customers Say About Us</h3>
+                            <p>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-start">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img src="images/testimonials/testimonial1.png" class="testimonial-img" alt="Testimonials">
+                                <img src="images/testimonials/testimonial2.png" class="testimonial-img" alt="Testimonials">
+                                <img src="images/testimonials/testimonial3.png" class="testimonial-img" alt="Testimonials">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h6>Customer Feedback</h6>
+                                <p><i class="fa-solid fa-star text-warning"></i>&nbsp;&nbsp;4.9(18.6k Reviews)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section ends -->
+        <!-- Services Section Starts -->
+        <section id="services" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-start text-start">
+                            <h6 class="section-title text-pink text-start text-uppercase mb-3">Our Story & Services</h6>
+                            <h3 class="text-dark section-subtitle mb-2">Our Culinary Journey And Services</h3>
+                            <p>Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.</p>
+                            <button class="btn btn-custom rounded-pill text-center order_btn text-white me-2 mb-2" type="submit">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                                <div class="card w-100 border-0 shadow service-item">
+                                    <i class="fa-solid fa-bowl-food text-custom fa-2x mt-2"></i>
+                                    <div class="card-body mx-2">
+                                    <h5 class="card-title service-title text-center text-custom text-uppercase">Catering</h5>
+                                    <p class="card-text service-subtitle text-center">Delight your guests with our flavors and  presentation</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12  d-flex justify-content-center align-items-center text-center mb-2 mb-2">
+                                <div class="card w-100 border-0 shadow service-item">
+                                    <i class="fa-solid fa-clock-rotate-left text-custom fa-2x mt-2"></i>
+                                    <div class="card-body mx-2">
+                                    <h5 class="card-title service-title text-center text-custom text-uppercase">Fast delivery</h5>
+                                    <p class="card-text service-subtitle text-center">Delight your guests with our flavors and  presentation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center text-center mb-2">
+                                <div class="card w-100 border-0 shadow service-item">
+                                    <i class="fa-solid fa-cart-shopping text-custom fa-2x mt-2"></i>
+                                    <div class="card-body mx-2">
+                                        <h5 class="card-title service-title text-center text-custom text-uppercase">Online Ordering</h5>
+                                        <p class="card-text service-subtitle text-center">Explore menu & order with ease using our Online Ordering </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12  d-flex justify-content-center align-items-center text-center mb-2 mb-2">
+                                <div class="card w-100 border-0 shadow service-item">
+                                    <i class="fa-solid fa-gift text-custom fa-2x mt-2"></i>
+                                    <div class="card-body mx-2">
+                                    <h5 class="card-title service-title text-center text-custom text-uppercase">Gift Cards</h5>
+                                    <p class="card-text service-subtitle text-center">Give the gift of exceptional dining with Foodi Gift Cards</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section ends -->
+    </main>
+    <!-- Main ends -->
+    <!-- Footer  Starts -->
+    <footer class="bg-light">
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a class="navbar-brand" href="#"><span class="logo-first-text">F</span><span class="logo-last-text">OODI</span></a>
+                    <p class="my-3 footer-text">Savor the artistry where every dish is a culinary masterpiece</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="footer-header">Useful links</h3>
+                    <ul class="list-unstyled">
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">About us</a></li>
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">Events</a></li>
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">Blogs</a></li>
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="footer-header">Main Menu</h3>
+                    <ul class="list-unstyled">
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">Offers</a></li>
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">Menus</a></li>
+                        <li class="footer-text my-1"><a href="#" class="text-decoration-none text-dark">Reservation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="footer-header">Contact Us</h3>
+                    <ul class="list-unstyled">
+                        <li class="footer-text my-2"><a href="mailto:example@email.com" class="text-decoration-none text-dark">example@email.com</a></li>
+                        <li class="footer-text my-2"><a href="tel:+64958248966" class="text-decoration-none text-dark"> +64 958 248 966</a></li>
+                        <li class="footer-text my-2">Social media</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pb-2">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-start d-flex justify-content-start align-items-start">
+                    <div class="social-item active me-3"><i class="fa-brands fa-facebook-f text-center"></i></div>
+                    <div class="social-item me-3"><i class="fa-brands fa-instagram  text-center"></i></div>
+                    <div class="social-item me-3"><i class="fa-brands fa-twitter text-center"></i></div>
+                    <div class="social-item me-3"><i class="fa-brands fa-youtube  text-center"></i></div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12 text-start">
+                    <p>Copyright <i class="fa-regular fa-copyright"></i> 2023 Dscode | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+</body>
+</html>

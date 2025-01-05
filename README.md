@@ -1,0 +1,4 @@
+FOODI
+======================================================================================================
+
+FOODI is a premier dining destination that combines culinary excellence with a modern ambiance. Our user-friendly website features a sleek design, ensuring easy navigation through our diverse menu offerings. With a commitment to quality, we provide a range of delectable dishes crafted from the finest ingredients, appealing to all palates. The responsive layout and integrated Bootstrap framework enhance the user experience, making it effortless to explore our services and place orders. Join us at FOODI for an unforgettable gastronomic journey that delights the senses.
